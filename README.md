@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fast Food</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <style>
+    .header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header img {
+    width: 100px;
+    border-radius: 50%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ul li {
+    color: maroon; 
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.header button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2 {
+    color: maroon;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+  </style>
+<body>
+
+    <div class="header">
+        <img src="https://static.vecteezy.com/system/resources/previews/021/769/098/non_2x/burger-logo-free-vector.jpg" alt="Logo">
+        <ul>
+            <li>Menu</li>
+            <li>Boglanish</li>
+            <li>Hamkorlik</li>
+        </ul>
+        <button>Buyurmta beirish</button>
+    </div>
+
+    <h2>Pitsalar</h2>
+    <div class="grid-container">
+        <div class="card">
+            <img src="https://img.magnific.com/premium-psd/pizza-with-olives-tomatoes-olives-it_1268410-858.jpg?semt=ais_hybrid&w=740&q=80" alt="Pizza">
+            <h3>Margarita</h3>
+            <p>75 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://img.magnific.com/free-photo/thinly-sliced-pepperoni-is-popular-pizza-topping-american-style-pizzerias-isolated-white-background-still-life_639032-229.jpg?semt=ais_hybrid&w=740&q=80" alt="Pizza">
+            <h3>Pepperoni</h3>
+            <p>65 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://io.bellissimo.uz/images/63720542-a4b0-4372-bfb5-cc1360ea0530.png" alt="Pizza">
+            <h3>Kombinirlangan</h3>
+            <p>75 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+    </div>
+
+    <h2>Burgerlar</h2>
+    <div class="grid-container">
+        <div class="card">
+            <img src="https://png.pngtree.com/png-vector/20240829/ourmid/pngtree-delicious-and-testy-cheese-burger-png-image_13659847.png" alt="Burger">
+            <h3>Gamburger</h3>
+            <p>45 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://as1.ftcdn.net/jpg/02/84/57/30/1000_F_284573041_bSjTuUemABfNt9Bbw9XUzS7773Xy0vSR.jpg" alt="Burger">
+            <h3>Chizburger</h3>
+            <p>45 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1157515115/photo/cheeseburger-isolated-on-white.jpg?s=612x612&w=0&k=20&c=6f6jnWe3iGi2GinEvSJlDsqKbaYoRwj3vYChPCU96U4=" alt="Burger">
+            <h3>Hamburger</h3>
+            <p>45 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+    </div>
+
+    <h2>Ichimliklar</h2>
+    <div class="grid-container">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/458464735/photo/coke.jpg?s=612x612&w=0&k=20&c=YbmiazMmY0DkWh_W8T0pBkOgai2k62hGF1TJn9EC5W0=" alt="Cola">
+            <h3>Coca-Cola</h3>
+            <p>8 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://t4.ftcdn.net/jpg/02/90/46/05/360_F_290460501_jVFM6bWLQs5wNDN7kHzNIddkIlp3TUl3.jpg" alt="Fanta">
+            <h3>Fanta</h3>
+            <p>8 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOgKiLk1jL2MFiYH7H5orOzXGDQMCpLk7vzg&s" alt="Sharbat">
+            <h3>sprite</h3>
+            <p>8 000 so'm</p>
+            <button>Sotib olish</button>
+        </div>
+    </div>
+ <p>© 2026 Fast Food. Javohir Fast Food Huqulari Himoyalangan.</p>
+</body>
+</html>
